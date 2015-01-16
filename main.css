@@ -1,0 +1,48 @@
+body {
+	background: #303F9F;
+	width: 100%;
+	line-height: 1.5em;
+}
+
+section {
+	margin: 0 100px 0 100px;
+	max-width: 960px;
+	min-width: 400px;
+	background: #C5CAE9;
+	padding: 10px;
+}
+
+.navigation {
+	background: #FFC107;
+}
+.navigation ul {
+	font-size: 1.2em;
+	font-weight: bold;
+	margin: 0 20px 0 0;
+	padding: 10px;
+	text-align: center;
+
+}
+
+.navigation li {
+	list-style: none;
+	display: inline-block;
+	padding: 0 10px 0 10px;
+}
+
+.navigation a {
+	text-decoration: none;
+	color: #3F51B5;
+}
+
+.navigation a:hover {
+	color: yellow;
+}
+
+.content p {
+	padding: 10px;
+}
+
+.content img {
+	width: 100%;
+}
