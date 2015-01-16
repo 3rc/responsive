@@ -1,13 +1,14 @@
 body {
+	position: absolute;
+	left: 10%;
+	right: 10%;
 	background: #303F9F;
-	width: 100%;
 	line-height: 1.5em;
 }
 
 section {
-	margin: 0 100px 0 100px;
-	max-width: 960px;
-	min-width: 400px;
+	max-width: 1500px;
+	min-width: 200px;
 	background: #C5CAE9;
 	padding: 10px;
 }
@@ -30,6 +31,13 @@ section {
 	padding: 0 10px 0 10px;
 }
 
+@media (max-width: 600px) {
+	.navigation li {
+		display: block;
+		width: 100%;
+	}
+}
+
 .navigation a {
 	text-decoration: none;
 	color: #3F51B5;
@@ -39,10 +47,28 @@ section {
 	color: yellow;
 }
 
-.content p {
+.main p {
 	padding: 10px;
 }
 
-.content img {
+.main img {
 	width: 100%;
+}
+
+.gallery {
+	text-align: center;
+}
+.gallery img {
+	display: inline-block;
+	padding: 10px;
+	border: solid black 1px;
+	margin: 10px;
+}
+
+@media (max-width: 525px) {
+	.gallery img {
+		text-align: center;
+		display: block;
+		width: 86%;
+	}
 }
